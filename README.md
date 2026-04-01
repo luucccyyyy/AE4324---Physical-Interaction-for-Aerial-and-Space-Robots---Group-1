@@ -20,51 +20,72 @@ pip3 install numpy scipy matplotlib pynput pandas sympy --break-system-packages
    colcon build --packages-select ae4324_robot
    source install/setup.bash
 3. Start the Edubot simulation or real robot in a separate terminal:
-   # for simulation:
+
+   for simulation:
+   
    source ~/edubot/ros_ws/install/setup.bash
    ros2 launch lerobot sim_position.launch.py
 
-   # for real robot:
+   for real robot:
+   
    source ~/edubot/ros_ws/install/setup.bash
    ros2 launch lerobot hw_position.launch.py
 
 **Reproduce our results**
 Task 1.2 (Workspace visualisation)
+
 In terminal:
-# Python plots
+
 python3 workspace_visualizer_python.py
 
-# RViz visualisation (simulation needs to run as well)
+RViz visualisation (simulation needs to run as well)
+
 ros2 run ae4324_robot workspace_visualizer.py
 
 Task 2.1 (IK feasibility)
+
 In terminal: 
-# Test all 5 poses
+
+Test all 5 poses
+
 python3 inverse_kinematics.py
 
-# Send a specific pose to the robot
+Send a specific pose to the robot:
+
 ros2 run ae4324_robot point_publisher.py
-# Example of how to enter a pose: 0.2,0.1,0.4,0,0,-1.57
+
+Example of how to enter a pose: 0.2,0.1,0.4,0,0,-1.57
 
 Task 2.2 (Multiple IK solutions)
+
 In terminal:
+
 ros2 run ae4324_robot angle_publisher.py
-# # Example of how to enter a joint angle: 1.303,-0.182,0.446,1.307,-0.267
+
+Example of how to enter a joint angle: 1.303,-0.182,0.446,1.307,-0.267
 
 Task 2.3 (Flame trajectory)
+
 In terminal: 
+
 ros2 run ae4324_robot trajectory_publisher.py
 
 Task 3.3 (Constant velocity control)
+
 In terminal: 
+
 python3 velocity_test.py
 
 Task 4 (Pick and place)
+
 In terminal:
+
 ros2 run ae4324_robot pick_and_place.py
 
 Task 4 (Cube stacking)
+
 In terminal:
+
 ros2 run ae4324_robot cube_stacking.py
 
 
