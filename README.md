@@ -107,3 +107,18 @@ ros2 run ae4324_robot cube_stacking.py
 | `trace_video.py` | Post-process video to track end-effector | 2.3 |
 | `tu_flame.csv` | Flame outline pixel coordinates | 2.3 |
 | `tu_flame_cartesian_trajectory.csv` | Pre-computed flame Cartesian trajectory | 2.3 |
+
+**Links to our Youtube videos:**
+
+Task 2.3: https://www.youtube.com/watch?v=uWfeE-0BqNY
+
+Task 3: https://youtube.com/shorts/I2NpxwE9W4Q?feature=share
+
+Task 3: https://youtube.com/shorts/znyE9s4p6R8?feature=share
+
+Task 3: https://youtube.com/shorts/fJtplR0z_48?feature=share
+
+Task 4: https://www.youtube.com/shorts/xVYfhqPpPXw
+
+Task 5: https://www.youtube.com/shorts/c3TdaQJBm1o
+
