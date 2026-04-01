@@ -32,7 +32,8 @@ pip3 install numpy scipy matplotlib pynput pandas sympy --break-system-packages
    ros2 launch lerobot hw_position.launch.py
 
 **Reproduce our results**
-Task 1.2 (Workspace visualisation)
+
+## Task 1.2 (Workspace visualisation)
 
 In terminal:
 
@@ -42,7 +43,7 @@ RViz visualisation (simulation needs to run as well)
 
 ros2 run ae4324_robot workspace_visualizer.py
 
-Task 2.1 (IK feasibility)
+## Task 2.1 (IK feasibility)
 
 In terminal: 
 
@@ -56,7 +57,7 @@ ros2 run ae4324_robot point_publisher.py
 
 Example of how to enter a pose: 0.2,0.1,0.4,0,0,-1.57
 
-Task 2.2 (Multiple IK solutions)
+## Task 2.2 (Multiple IK solutions)
 
 In terminal:
 
@@ -64,7 +65,7 @@ ros2 run ae4324_robot angle_publisher.py
 
 Example of how to enter a joint angle: 1.303,-0.182,0.446,1.307,-0.267
 
-Task 2.3 (Flame trajectory)
+## Task 2.3 (Flame trajectory)
 
 In terminal: 
 
@@ -76,13 +77,13 @@ In terminal:
 
 python3 velocity_test.py
 
-Task 4 (Pick and place)
+## Task 4 (Pick and place)
 
 In terminal:
 
 ros2 run ae4324_robot pick_and_place.py
 
-Task 4 (Cube stacking)
+## Task 5 (Cube stacking)
 
 In terminal:
 
